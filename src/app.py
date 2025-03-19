@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Título de la aplicación
-st.title("¡Bienvenidas a Weather Prediction!")
+st.title("¡Bienvenidos a Weather Prediction!")
 
 # Cargar el archivo CSV
 def load_data():
@@ -24,15 +24,13 @@ def clean_data(data):
 # Sidebar para cargar y mostrar el encabezado del archivo CSV
 st.sidebar.title("Opciones")
 if st.sidebar.button("Cargar y mostrar datos"):
-    data = load_data()
-    st.write(data.head())
+    load_data()
 
 # Botón para limpiar los datos
 if st.sidebar.button("Limpiar Data"):
     if 'data' in st.session_state:
         cleaned_data = clean_data(st.session_state.data)
         st.session_state.cleaned_data = cleaned_data
-        st.write("Datos limpiados y guardados en 'data/processed/weather_classification_data.csv'")
         st.write(cleaned_data.head())
         st.success("Dataset cleaned successfully!")
     else:
