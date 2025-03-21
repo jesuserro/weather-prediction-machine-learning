@@ -4,11 +4,11 @@
 
 In this project, we aim to predict weather conditions using machine learning models. We focus on two main tasks:
 
-### **Classification**
+### 1. Classification
 
 Predicting the "type of day" (e.g., sunny, rainy, cloudy).
 
-### **Regression**
+### 2. Regression
 
 Predicting "how much it will rain" (precipitation percentage).
 
