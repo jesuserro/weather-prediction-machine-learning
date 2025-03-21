@@ -4,12 +4,14 @@
 
 In this project, we aim to predict weather conditions using machine learning models. We focus on two main tasks:
 
-- 1. Classification: Predicting the "type of day" (e.g., sunny, rainy, cloudy).
-- 2. Regression: Predicting "how much it will rain" (precipitation percentage).
+  1. Classification: Predicting the "type of day" (e.g., sunny, rainy, cloudy).
+  2. Regression: Predicting "how much it will rain" (precipitation percentage).
 
 ## 📁 Data Source
 
 The dataset used for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/nikhil7280/weather-type-classification) and can be found in the file `weather_classification_data.csv`.
+
+![Regression Heatmap](img/regression-heatmap.png)
 
 ## 🛠️ Models Used
 
@@ -32,6 +34,10 @@ After experimenting with various models, we found that the Random Forest models 
 
 - **Classification Accuracy**: Achieved high accuracy in predicting the type of day using the Random Forest Classifier.
 - **Regression Performance**: Successfully predicted the amount of rainfall with the Random Forest Regressor.
+
+### Regression Adapted ROC
+
+![Regression Adapted ROC](img/regression-adapyted-roc.png)
 
 ## 📚 Conclusion
 
