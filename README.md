@@ -4,21 +4,8 @@
 
 In this project, we aim to predict weather conditions using machine learning models. We focus on two main tasks:
 
-### 1. Classification
-
-Predicting the "type of day" (e.g., sunny, rainy, cloudy).
-
-### 2. Regression
-
-Predicting "how much it will rain" (precipitation percentage).
-
-#### Regression Heatmap
-
-![Regression Heatmap](img/regression-heatmap.png)
-
-#### Regression Adapted ROC
-
-![Regression Adapted ROC](img/regression-adapyted-roc.png)
+- 1. Classification: Predicting the "type of day" (e.g., sunny, rainy, cloudy).
+- 2. Regression: Predicting "how much it will rain" (precipitation percentage).
 
 ## 📁 Data Source
 
