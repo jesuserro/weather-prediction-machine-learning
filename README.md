@@ -4,8 +4,21 @@
 
 In this project, we aim to predict weather conditions using machine learning models. We focus on two main tasks:
 
-1. **Classification**: Predicting the "type of day" (e.g., sunny, rainy, cloudy).
-2. **Regression**: Predicting "how much it will rain" (precipitation percentage).
+### **Classification**
+
+Predicting the "type of day" (e.g., sunny, rainy, cloudy).
+
+### **Regression**
+
+Predicting "how much it will rain" (precipitation percentage).
+
+#### Regression Heatmap
+
+![Regression Heatmap](img/regression-heatmap.png)
+
+#### Regression Adapted ROC
+
+![Regression Adapted ROC](img/regression-adapyted-roc.png)
 
 ## 📁 Data Source
 
@@ -32,14 +45,6 @@ After experimenting with various models, we found that the Random Forest models 
 
 - **Classification Accuracy**: Achieved high accuracy in predicting the type of day using the Random Forest Classifier.
 - **Regression Performance**: Successfully predicted the amount of rainfall with the Random Forest Regressor.
-
-### Regression Heatmap
-
-![Regression Heatmap](img/regression-heatmap.png)
-
-### Regression Adapted ROC
-
-![Regression Adapted ROC](img/regression-adapyted-roc.png)
 
 ## 📚 Conclusion
 
