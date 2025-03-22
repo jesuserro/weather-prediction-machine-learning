@@ -1,4 +1,4 @@
-# Weather Prediction Project 🌦️
+# Weather Prediction Using Random Forest Models 🌦️
 
 ## 📊 Overview
 
